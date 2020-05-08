@@ -1,4 +1,4 @@
-# Analyzing Vacant Building Notices in Baltimore as an Indicator of Neighborhood Health
+# Analyzing Vacant Building Notices and Improving Neighborhood Health in Baltimore
 
 ## Background and Business Question
 
