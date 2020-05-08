@@ -50,7 +50,7 @@ Explanation
 
 Explanation
 
-### VBN Reccurrence and DHCD Capital
+### VBN Recurrence and DHCD Capital
 * Main takeaway
 * Main takeaway
 * Main takeaway
