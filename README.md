@@ -12,6 +12,10 @@
 
 ## Data Answer and Visualizations
 ### VBN Reccurence
+* Main takeaway
+* Main takeaway
+* Main takeaway
+
 In order to determine which properties were reappearing on the VBN list after being put back on the market, a unique ID was created for each address (e.g. 2110NFULTONAVE for the property at 2110 N. Fulton Ave.) and the dataset was organized first chronologically using the date of issue, "DateNotice," and then alpha-numberically using these IDs. 92 VBNs had no street address attached and were excluded from this analysis. The following nested IF statement was then used to count all properties which reoccurred in the dataset for reasons other than "Ownership Changed."
 
 VBN_Repeats = IF(G3=G2,IF[YEAR(I3)=YEAR(AD2),0,IF{M2="OWNERSHIP CHANGED",0,1}],0),
@@ -21,11 +25,36 @@ where 1 indicates a VBN reoccurence, 0 is all other possibilities such as a new 
 This produced __6,661 results__. In a separate table, VLOOKUP was used to create a table of issue date and close date for each VBN reccurence, as well as those of the initial VBN issued for each property. The years elapsed between the initial close date and the issue date of each reccurence were then calculated. For 722 VBN reccurences, the years elasped were less than or equal to zero. Another reccurence had no close date. Excluding these 723 properties, __5,938 VBN recurrences__ remained, of which __2,314 were reissued 5 years of more after the close of the initial VBN__.
 
 ### DHCD Interventions
+* Main takeaway
+* Main takeaway
+* Main takeaway
+
+Explanation
 
 ### VBN Concentration
+* Main takeaway
+* Main takeaway
+* Main takeaway
+
+Explanation
 
 ### VBN and Demolitions Correlation
+* Main takeaway
+* Main takeaway
+* Main takeaway
+
+Explanation
 
 ### VBN Reccurrence and DHCD Capital
+* Main takeaway
+* Main takeaway
+* Main takeaway
+
+Explanation
 
 ## Business Answer and Recommendations and Impact for Baltimore City
+* Main takeaway
+* Main takeaway
+* Main takeaway
+
+Explanation
