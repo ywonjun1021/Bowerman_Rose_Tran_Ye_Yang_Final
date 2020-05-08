@@ -24,6 +24,10 @@ where 1 indicates a VBN reoccurence, 0 is all other possibilities such as a new 
 
 This produced __6,661 results__. In a separate table, VLOOKUP was used to create a table of issue date and close date for each VBN reccurence, as well as those of the initial VBN issued for each property. The years elapsed between the initial close date and the issue date of each reccurence were then calculated. For 722 VBN reccurences, the years elasped were less than or equal to zero. Another reccurence had no close date. Excluding these 723 properties, __5,938 VBN recurrences__ remained, of which __2,314 were reissued 5 years of more after the close of the initial VBN__.
 
+___Concessions to be aware of: Inflation of years elapsed if initial VBN was cancelled due to ownership change and VBN was renewed before being officially abated/cancelled.___
+
+#### Cluster Analysis
+
 ### DHCD Interventions
 * Main takeaway
 * Main takeaway
