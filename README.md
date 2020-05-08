@@ -12,7 +12,7 @@
 
 ## Data Answer and Visualizations
 ### VBN Reccurrence
-* 5,938 VBNs were reccurrences with 2,314 of those recurring 5 or more years after the close of the initial VBN.
+* 5,938 VBNs were reccurrences, of which 2,314 recurred five years or more after the initial VBN's close.
 * Main takeaway
 * Main takeaway
 
