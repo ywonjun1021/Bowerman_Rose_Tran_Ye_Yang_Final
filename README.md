@@ -11,8 +11,8 @@
 5. Are there any properties DHCD has spent capital on that then gets on the VBN list within five years?
 
 ## Data Answer and Visualizations
-### VBN Reccurence
-* Main takeaway
+### VBN Reccurrence
+* 5,938 VBNs were reccurrences with 2,314 of those recurring 5 or more years after the close of the initial VBN.
 * Main takeaway
 * Main takeaway
 
