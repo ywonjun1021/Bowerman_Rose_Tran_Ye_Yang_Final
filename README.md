@@ -12,7 +12,11 @@
 
 ## Data Answer and Visualizations
 ### VBN Reoccurence
-In order to determine which properties were reappearing on the VBN list after being put back on the market, a unique ID was created for each address (e.g. 2110NFULTONAVE for the property at 2110 N. Fulton Ave.) and the dataset was organized first chronologically using the date of issue, "DateNotice," and then alpha-numberically using these IDs. The following IF statement was then used to count all properties which reoccurred in the dataset for reasons other than "Ownership Changed" - 
+In order to determine which properties were reappearing on the VBN list after being put back on the market, a unique ID was created for each address (e.g. 2110NFULTONAVE for the property at 2110 N. Fulton Ave.) and the dataset was organized first chronologically using the date of issue, "DateNotice," and then alpha-numberically using these IDs. The following IF statement was then used to count all properties which reoccurred in the dataset for reasons other than "Ownership Changed."
+
+VBN_Repeats = IF(G3=G2,IF(YEAR(I3)=YEAR(AD2),0,IF(M2="OWNERSHIP CHANGED",0,1)),0),
+
+where 1 is VBN reoccurence, 0 is all other possibilities such as a new property or an extension of the preceding VBN, "VBN_Repeats" is the column heading, G3 is the unique ID of the property in question (row 3), G2 is the unique ID of the preceding property in the dataset (row 2), I3 is the issue date of the VBN in row 3, AD2 is the close date of the VBN in row 2, and M2 is the reason the row 2 VBN was closed.
 
 ### DHCD Interventions
 
