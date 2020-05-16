@@ -2,6 +2,14 @@
 
 ## Background and Business Question
 
+Baltimore City wants to solve the problem of having high vacant building numbers 
+Baltimore specifically has been demolishing the vacant buildings, but at the same time facilitating investments in vacant lot programs and supporting large-scale redevelopments in distressed areas. 
+
+This matters for Baltimore citizens because Baltimore wants to better the city especially when they have many people with poor health conditions. If this problem of having high vacact buildings is fixed, overall neighborhood health might improve. 
+This matters for us because as student at Johns Hopkins University, if this problem is fixed, there will be a ripple effect of fixing other problems in Baltimore; thus, making Baltimore a healthier and safer place.
+
+Thus we ask: What are the main causes of Vacant Building Notices and what is the impact of DHCD interventions, regarding VBNs, on overall neighborhood health? Which strategies, if any, are most effective?
+
 
 ## Data Questions
 1. How many VBNs are being put back on the market, then end up back on the VBN list within 1-year increments over a 5-year period? Where is this most likely to occur?
